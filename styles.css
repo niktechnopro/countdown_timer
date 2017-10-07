@@ -1,0 +1,48 @@
+/*the background image is borrowed from here: http://countrytocanberra.com.au/graduation-day/*/
+/*sanity check*/
+/*
+body{
+    background-color: aqua;
+}*/
+
+body{
+	background: url('http://countrytocanberra.com.au/wp-content/uploads/2016/09/graduation.png') no-repeat center;
+	background-size: cover; /* stretches/scales the image to fill full screen - keeps proportions*/
+	height: 100vh;
+	/* text-align centers my children inside of me */
+    text-align: center;
+	/* margin auto centers me inside my parent */
+}
+
+h1{
+    font-size: 40px;
+    color: #ec420c;
+    position: relative;
+    margin: 90px 0px 0px;
+}
+
+#timer-div{
+	display: inline-block;
+	font-size: 30px;
+    margin-top: 60px;
+    }
+
+.time-unit, .time-unit span{	
+	/* make our spans inline-block */
+	display: inline-block;
+	padding: 10px;
+	background-color: #D2691E;
+	border-radius: 5px;
+	border: 2px solid #8B4513;
+    color: greenyellow;
+}
+
+#today{
+    font-size: 30px;
+    color: #ec420c;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30px;
+    }
